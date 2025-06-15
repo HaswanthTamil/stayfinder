@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Env
+env/
+venv/
+ENV/
+env.bak/
+*.env
+*.env.*
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Pipenv / Poetry (if used)
+Pipfile.lock
+poetry.lock
+
+# Migrations (optional, for local-only)
+**/migrations/*.py
+!**/migrations/__init__.py
