@@ -6,6 +6,7 @@ class Hotel(models.Model):
     title = models.CharField(max_length=255, blank=True, null=True)
     description = models.CharField(max_length=255, blank=True, null=True)
 
+    image_urls = models.JSONField(default=list, blank=True, null=True)
     host = models.CharField(max_length=255, blank=True, null=True)
     location = models.CharField(max_length=255, blank=True, null=True)
 
@@ -14,6 +15,7 @@ class Hotel(models.Model):
 
     is_booked = models.BooleanField(default=False)
     dates = models.JSONField(default=list, blank=True, null=True)
+    tags = models.TextField(default="", blank=True, null=True)
 
     def __str__(self):
         return f"{self.title}, {self.location}"
