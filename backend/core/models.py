@@ -16,6 +16,7 @@ class Hotel(models.Model):
     is_booked = models.BooleanField(default=False)
     dates = models.JSONField(default=list, blank=True, null=True)
     tags = models.TextField(default="", blank=True, null=True)
+    is_liked = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.title}, {self.location}"
