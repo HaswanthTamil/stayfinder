@@ -28,7 +28,7 @@ const NavBar = () => {
     <>
       <div>
         <nav
-          className={`flex items-center absolute rounded-2xl bg-gray-50 shadow-lg ${
+          className={`flex fixed items-center rounded-2xl bg-gray-50 shadow-lg ${
             isMobile
               ? "flex-row bottom-0 left-1/2 -translate-x-1/2 gap-10 justify-center p-2 mb-2"
               : "flex-col mx-2 top-20 left-0 gap-5 px-3 py-4 "

@@ -12,7 +12,7 @@
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
       "https://images.unsplash.com/photo-1528913775512-624d24b27b96?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D"
     ],
-    "tags": "beach bamboo hut tropical bali indonesia asia"
+    "tags": "beach coastal bamboo hut tropical bali indonesia asia"
   },
   {
     "title": "Tokyo Capsule Haven",
@@ -27,7 +27,7 @@
       "https://plus.unsplash.com/premium_photo-1723669629708-0de9b27820b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9reW9ob3VzZXxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1669612803668-2b2a770f9890?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGphcGFuJTIwaG91c2V8ZW58MHx8MHx8fDA%3D"
     ],
-    "tags": "capsule pod minimal futuristic tokyo japan asia"
+    "tags": "capsule urban pod minimal futuristic tokyo japan asia"
   },
   {
     "title": "Parisian Rooftop Romance",
@@ -72,6 +72,156 @@
       "https://plus.unsplash.com/premium_photo-1685305676839-26406ddbe4de?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJlZWhvdXNlJTIwaG90ZWx8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1678043006450-05c2697ce6bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJlZWhvdXNlJTIwaG90ZWwlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D"
     ],
-    "tags": "northen lights treehouse escape glass walls arctic forest finland europe"
+    "tags": "northen lights nature treehouse escape glass walls arctic forest finland europe"
+  },
+  {
+    "title": "Alpine Hideaway",
+    "description": "A snug wooden cabin nestled in the Swiss Alps with panoramic mountain views.",
+    "host": "Luca Meier",
+    "location": "Zermatt, Switzerland",
+    "price_per_night": 210.00,
+    "num_beds": 3,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1661285129351-2ccc4133dbc0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFscHMlMjBob3VzZSUyMGhvdGVsfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1666689464534-11d437f06ace?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aXRhbGlhbiUyMGhvdXNlJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D"
+    ],
+    "tags": "mountains alps nature swiss switzerland cabin snow cozy europe"
+  },
+  {
+    "title": "Tokyo Neon Loft",
+    "description": "Live in the heart of Tokyo's nightlife with this sleek modern loft.",
+    "host": "Hana Ishikawa",
+    "location": "Shibuya, Tokyo",
+    "price_per_night": 180.00,
+    "num_beds": 1,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://plus.unsplash.com/premium_photo-1722593856418-05d6d47eec59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8amFwYW4lMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1645816255137-c100ac3ede53?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZSUyMGludGVyaW9yJTIwamFwYW58ZW58MHx8MHx8fDA%3D"
+    ],
+    "tags": "city japan tokyo urban nightlife loft modern asia"
+  },
+  {
+    "title": "Tuscany Vineyard Villa",
+    "description": "Sip wine and breathe in rolling hills from this charming Italian villa.",
+    "host": "Giulia Romano",
+    "location": "Tuscany, Italy",
+    "price_per_night": 250.00,
+    "num_beds": 4,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1649321125917-87ec0fb5283e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmluZXlhcmQlMjB2aWxsYXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1655516433028-9e0e1599cf8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV1cm9wZSUyMHZpbGxhfGVufDB8fDB8fHww"
+    ],
+    "tags": "vineyard countryside wine italian italy nature europe villa"
+  },
+  {
+    "title": "Moroccan Riad Retreat",
+    "description": "Step into a world of mosaics and courtyards in this riad in old Marrakech.",
+    "host": "Fatima El Idrissi",
+    "location": "Marrakech, Morocco",
+    "price_per_night": 95.00,
+    "num_beds": 2,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1739875136857-deb6e631bf45?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9yb2NjbyUyMHZpbGxhfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1505576391880-b3f9d713dc4f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9yb2NjbyUyMHZpbGxhfGVufDB8fDB8fHww"
+    ],
+    "tags": "morocco desert sand riad mosaic africa traditional"
+  },
+  {
+    "title": "Santorini Sunset Suite",
+    "description": "Watch fiery sunsets from your balcony over whitewashed cliffs.",
+    "host": "Yannis Kostas",
+    "location": "Santorini, Greece",
+    "price_per_night": 220.00,
+    "num_beds": 2,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1686597458519-63fad4d4f50d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyZWVjZSUyMGNvYXN0fGVufDB8fDB8fHww",
+      "https://media.istockphoto.com/id/1394034183/photo/modern-living-room-interior-with-sofa-coffee-table-parquet-floor-and-garden-view-from-the.webp?a=1&b=1&s=612x612&w=0&k=20&c=JoPn3VrkzdwnR8pQTkIw8HTIUSGMTfjYZid-vYJj12g="
+    ],
+    "tags": "greece seaside nature cliff coastal beach ocean sunset europe"
+  },
+  {
+    "title": "Brooklyn Art Loft",
+    "description": "Graffiti walls, exposed brick, and rooftop views in NYC's trendiest borough.",
+    "host": "Andre Martinez",
+    "location": "Brooklyn, New York",
+    "price_per_night": 170.00,
+    "num_beds": 1,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1567474806969-f218f4bdcf38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJvb2tseW4lMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D",
+      ""
+    ],
+    "tags": "urban loft art new york america usa city"
+  },
+  {
+    "title": "Amazon Treehouse Escape",
+    "description": "Unplug in this rustic treehouse suspended in the Amazon rainforest.",
+    "host": "Tiago Ribeiro",
+    "location": "Manaus, Brazil",
+    "price_per_night": 110.00,
+    "num_beds": 2,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://plus.unsplash.com/premium_photo-1697730162616-dd58a94b4c7f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anVuZ2xlJTIwdmlsbGF8ZW58MHx8MHx8fDA%3D",
+      "https://media.istockphoto.com/id/175523899/photo/luxury-villa-with-jungle-view.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZTUkm7h-mRP4N6ZUALbQgUXxVZrUZUhNUE7sqQHlrpg="
+    ],
+    "tags": "rainforest jungle treehouse nature south america"
+  },
+  {
+    "title": "Cappadocia Cave Hotel",
+    "description": "Sleep beneath ancient stone arches and hot air balloons in the sky.",
+    "host": "Emre Yildiz",
+    "location": "Cappadocia, Turkey",
+    "price_per_night": 140.00,
+    "num_beds": 2,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1713711188100-18393a9c98b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F2ZSUyMGhvdGVsfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1700742330993-825052894fc3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhdmUlMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "tags": "cave turkey asia nature balloons stone middle east"
+  },
+  {
+    "title": "Icelandic Aurora Dome",
+    "description": "Sleep under the northern lights in this heated glass dome.",
+    "host": "Einar Sigurðsson",
+    "location": "Reykjavík, Iceland",
+    "price_per_night": 275.00,
+    "num_beds": 1,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1517253259615-dff3842d2544?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGljZWxhbmQlMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1741660419957-2cb7baa19e3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGljZWxhbmQlMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "tags": "iceland aurora dome nature cold winter"
+  },
+  {
+    "title": "Dubai Sky High Penthouse",
+    "description": "Luxury at the top of the world with skyline and desert views.",
+    "host": "Aaliyah Khan",
+    "location": "Dubai, UAE",
+    "price_per_night": 320.00,
+    "num_beds": 3,
+    "is_booked": false,
+    "dates": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1578058997959-66ffdee9f807?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cm9vZnRvcCUyMHBvb2x8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1661962769148-fbe587e60fb8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9vZnRvcCUyMHBvb2x8ZW58MHx8MHx8fDA%3D"
+    ],
+    "tags": "luxury dubai asia urban skyscraper desert middle east"
   }
 ]

@@ -7,7 +7,7 @@ import Link from "next/link"
 const Header = () => {
   return (
     <>
-      <div className="absolute flex items-center justify-between top-0 left-0 right-0 bg-white py-2 px-2 sm:px-4">
+      <div className="fixed flex items-center justify-between top-0 left-0 right-0 bg-white py-2 px-2 sm:px-4">
         <div className="flex flex-row items-center gap-2 sm:gap-4">
           <Image
             className="rounded-full"
