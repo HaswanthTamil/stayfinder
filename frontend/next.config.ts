@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
       "images.unsplash.com",
       "plus.unsplash.com",
       "images.unsplash.com",
+      "media.istockphoto.com",
     ],
   },
 }

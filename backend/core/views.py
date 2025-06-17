@@ -24,7 +24,7 @@ def hotel_detail(request, hotel_id):
     elif request.method == "PUT":
         body = json.loads(request.body)
         # Update only allowed fields
-        for field in ["is_booked", "title", "price_per_night", "location"]:  # adjust as needed
+        for field in ["is_booked", "title", "price_per_night", "location", "is_liked", "dates"]: 
             if field in body:
                 setattr(hotel, field, body[field])
         hotel.save()

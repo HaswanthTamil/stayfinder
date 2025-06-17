@@ -21,7 +21,43 @@ const Details = ({ id }: { id: number }) => {
   const router = useRouter()
 
   const handleBook = () => {
-    router.push(`/bookings/${id}/`)
+    router.push(`/bookings/${id}/`) // navigate to booking page
+  }
+
+  const handleCancel = () => {
+    if (hotel) {
+      hotel.is_booked = false
+
+      fetch(`http://localhost:8000/api/hotels/${id}/`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(hotel),
+      })
+
+      alert("Cancelled booking.")
+      router.refresh()
+    }
+  }
+
+  const handleLike = async () => {
+    if (hotel) {
+      const updatedHotel = { ...hotel, is_liked: !hotel.is_liked }
+
+      const res = await fetch(`http://localhost:8000/api/hotels/${id}/`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(updatedHotel),
+      })
+
+      if (res.ok) {
+        setHotel(updatedHotel) // optional: update UI immediately
+        router.refresh() // now refresh after backend update!
+      }
+    }
   }
 
   return (
@@ -38,7 +74,8 @@ const Details = ({ id }: { id: number }) => {
               <h1>Beds: {hotel?.num_beds}</h1>
             </div>
             <div
-              className={`p-2 rounded-full hover:bg-gray-200 hover:scale-95 transition-all duration-200 ease-in-out shadow-xl`}
+              className="p-2 rounded-full hover:bg-gray-200 hover:scale-95 transition-all duration-200 ease-in-out shadow-xl"
+              onClick={handleLike}
             >
               <Heart
                 className={`${
@@ -67,8 +104,11 @@ const Details = ({ id }: { id: number }) => {
               >
                 Already booked
               </button>
-              <button className="font-semibold p-2 text-lg cursor-pointer hover:translate-x-1.5 hover:italic transition-all duration-200 ease-in-out">
-                {"View booking details >"}
+              <button
+                className="font-semibold p-2 text-lg cursor-pointer hover:translate-x-1.5 hover:italic transition-all duration-200 ease-in-out"
+                onClick={handleCancel}
+              >
+                Cancel booking?
               </button>
             </>
           )}

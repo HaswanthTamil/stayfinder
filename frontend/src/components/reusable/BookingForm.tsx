@@ -42,9 +42,15 @@ const BookingForm = ({ id }: { id: number }) => {
       alert("Booking confirmed! 🎉")
       router.push("/")
 
-      // set hotel.is_booked to true
+      // update booking info
       if (hotel) {
         hotel.is_booked = true
+
+        // Add date range to hotel.dates
+        const newDates = hotel.dates || []
+        newDates.push(`${fromDate} to ${toDate}`)
+        hotel.dates = newDates
+
         fetch(`http://localhost:8000/api/hotels/${id}/`, {
           method: "PUT",
           headers: {
@@ -55,6 +61,7 @@ const BookingForm = ({ id }: { id: number }) => {
       }
     }, 1000)
   }
+
   const handleCancel = () => {
     router.back()
   }
