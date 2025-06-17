@@ -34,7 +34,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://stayfinder-orpin.vercel.app/",
+    "https://stayfinder-orpin.vercel.app",
 ]
 
 
