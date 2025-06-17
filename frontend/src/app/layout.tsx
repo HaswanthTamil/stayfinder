@@ -8,6 +8,9 @@ import Header from "@/components/nonreusable/Header"
 export const metadata: Metadata = {
   title: "Stayfinder",
   description: "Find your perfect stay with Stayfinder",
+  icons: {
+    icon: "/logo.png",
+  },
 }
 
 export default function RootLayout({
