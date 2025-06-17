@@ -4,6 +4,7 @@
 import { useEffect, useState } from "react"
 import { Hotel } from "../../../types/hotel"
 import { Heart } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 const Details = ({ id }: { id: number }) => {
   const [hotel, setHotel] = useState<Hotel>()
@@ -16,6 +17,12 @@ const Details = ({ id }: { id: number }) => {
     }
     fetchData()
   }, [id])
+
+  const router = useRouter()
+
+  const handleBook = () => {
+    router.push(`/bookings/${id}/`)
+  }
 
   return (
     <>
@@ -46,7 +53,10 @@ const Details = ({ id }: { id: number }) => {
         </div>
         <div className="flex flex-col items-center justify-center">
           {!hotel?.is_booked ? (
-            <button className="py-2 px-5 bg-black text-white rounded-full hover:opacity-80 hover:scale-95 transition-all duration-200 ease-in-out shadow-lg font-semibold text-lg">
+            <button
+              className="py-2 px-5 bg-black text-white rounded-full hover:opacity-80 hover:scale-95 transition-all duration-200 ease-in-out shadow-lg font-semibold text-lg"
+              onClick={handleBook}
+            >
               Book now!
             </button>
           ) : (

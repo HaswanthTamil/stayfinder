@@ -1,3 +1,4 @@
+// /components/reusable/BookingForm.tsx
 "use client"
 
 import { useState, useEffect } from "react"
@@ -40,6 +41,18 @@ const BookingForm = ({ id }: { id: number }) => {
     setTimeout(() => {
       alert("Booking confirmed! 🎉")
       router.push("/")
+
+      // set hotel.is_booked to true
+      if (hotel) {
+        hotel.is_booked = true
+        fetch(`http://localhost:8000/api/hotels/${id}/`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(hotel),
+        })
+      }
     }, 1000)
   }
   const handleCancel = () => {

@@ -43,17 +43,15 @@ const DetailSlider = ({ hotel_id }: { hotel_id: number }) => {
     <div className="relative w-full max-w-4xl mx-auto">
       {/* Slider */}
       <div className="overflow-hidden rounded-xl flex gap-2">
-        {currentImages.length > 0 ? (
-          currentImages.map((img, i) => (
-            <Image
-              key={i}
-              src={img}
-              alt={`slide ${index}-${i}`}
-              width={500}
-              height={320}
-              className="w-full h-80 object-cover transition-all duration-500 rounded-xl"
-            />
-          ))
+        {currentImages.length > 0 && currentImages[index] ? (
+          <Image
+            src={currentImages[index]}
+            alt={`slide ${index}`}
+            width={500}
+            height={320}
+            className="w-full h-80 object-cover transition-all duration-500"
+            priority
+          />
         ) : (
           <div className="w-full h-80 bg-gray-200 animate-pulse rounded-xl" />
         )}
