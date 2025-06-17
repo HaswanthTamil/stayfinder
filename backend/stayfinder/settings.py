@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-g@!*=n)emygb9^c9y1=!9w8t--c)a87q3nj+@1g^(3i2k1p79w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['stayfinder-ml3c.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
