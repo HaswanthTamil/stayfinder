@@ -5,7 +5,7 @@ class Hotel(models.Model):
     title = models.CharField(max_length=255, blank=True, null=True)
     description = models.CharField(max_length=255, blank=True, null=True)
 
-    image_url = models.URLField(blank=True, null=True)  # 🔁 Changed from ArrayField to single URLField
+    image_urls = models.URLField(blank=True, null=True)  # 🔁 Changed from ArrayField to single URLField
     host = models.CharField(max_length=255, blank=True, null=True)
     location = models.CharField(max_length=255, blank=True, null=True)
 
