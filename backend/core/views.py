@@ -7,9 +7,25 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 import json
 
-def hotel_list(request):
+def get_hotels_raw(request):
     hotels = Hotel.objects.all()
-    data = [model_to_dict(hotel) for hotel in hotels]
+    data = []
+
+    for hotel in hotels:
+        data.append({
+            "title": hotel.title,
+            "description": hotel.description,
+            "host": hotel.host,
+            "location": hotel.location,
+            "price_per_night": hotel.price_per_night,
+            "num_beds": hotel.num_beds,
+            "is_booked": hotel.is_booked,
+            "is_liked": hotel.is_liked,
+            "dates": hotel.dates,
+            "image_urls": hotel.image_urls,
+            "tags": hotel.tags,
+        })
+
     return JsonResponse(data, safe=False)
 
 @csrf_exempt  # allow PUT without CSRF (only for dev!)
