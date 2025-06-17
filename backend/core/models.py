@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.postgres.fields import ArrayField
 
 class Hotel(models.Model):
 
@@ -6,7 +7,7 @@ class Hotel(models.Model):
     title = models.CharField(max_length=255, blank=True, null=True)
     description = models.CharField(max_length=255, blank=True, null=True)
 
-    image_urls = models.JSONField(default=list, blank=True, null=True)
+    image_urls = ArrayField(models.URLField(), default=list, blank=True, null=True)
     host = models.CharField(max_length=255, blank=True, null=True)
     location = models.CharField(max_length=255, blank=True, null=True)
 
@@ -14,7 +15,7 @@ class Hotel(models.Model):
     num_beds = models.IntegerField(blank=True, null=True)
 
     is_booked = models.BooleanField(default=False)
-    dates = models.JSONField(default=list, blank=True, null=True)
+    dates = ArrayField(models.CharField(max_length=200), default=list, blank=True, null=True)
     tags = models.TextField(default="", blank=True, null=True)
     is_liked = models.BooleanField(default=False)
 
