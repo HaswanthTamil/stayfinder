@@ -1,6 +1,6 @@
 // /bookings/[id]/page.tsx
 
-const BookingPage = () => {
+const NewBooking = ({ params }: { params: { id: number } }) => {
   return (
     <>
       <div>Booking Details</div>
@@ -8,4 +8,4 @@ const BookingPage = () => {
   )
 }
 
-export default BookingPage
+export default NewBooking

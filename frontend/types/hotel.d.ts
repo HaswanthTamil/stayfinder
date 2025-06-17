@@ -9,6 +9,7 @@ export type Hotel = {
   price_per_night: number
   num_beds: number
   is_booked: boolean
+  is_liked: boolean
   dates: string[]
   image_urls: string[]
   tags: string
